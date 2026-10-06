@@ -19,7 +19,7 @@ Build this as a React + Vite + TypeScript app with a small Express backend (port
 
 ### Vite proxy
 
-Forward `/api` to `http://localhost:3001` (the Express backend).
+Forward `/api` to `http://localhost:3001` (the Express backend). Set `server.allowedHosts: true` so the preview works inside any iframe host without host-header blocking.
 
 ### Frontend (src/App.tsx)
 
